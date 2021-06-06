@@ -15,9 +15,9 @@ def show_ps_number(ps):
         print(item)
 
 def main():
-    print("\nEnter the PS number from the below list:\n")
+    print("\nEnter the PS number from the list given below:\n")
     ps = my_ps_number(ws)
     show_ps_number(ps)
-    user_choice = int(input("\nEnter the Ps number:"))
+    user_choice = int(input("\nEnter PS number:"))
 
 main()
